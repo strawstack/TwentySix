@@ -52,6 +52,10 @@ Let's talk about what's happening on each line. `Line 1`: read a value from std-
 
 # How to Run Code
 
+Install the single node dependency `readline-sync`, which allows TwentySix to read from the console, execute the following command in the same directory as `package.json`:
+
+    npm install
+
 If `program_name.tsix` is your program (in the same directory as make.js), the command below generates the output of your program, and it will pause for input if your program wants to read from std-in:
 
     node make.js program_name.tsix && node run.js
