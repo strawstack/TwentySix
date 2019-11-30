@@ -2,6 +2,8 @@
 
 A simple programming language written by a part-time minimalist
 
+![](./images/tsix_logo.png)
+
 # Writing Code in TwentySix
 
 In TwentySix there are 26 built-in functions each represented by one of the 26 uppercase english alphabet letters. See `DOCS.md` for details.
