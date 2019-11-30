@@ -1,6 +1,6 @@
 # TwentySix
 
-A simple programing language written by a part-time minimalist
+A simple programming language written by a part-time minimalist
 
 # Writing Code in TwentySix
 
