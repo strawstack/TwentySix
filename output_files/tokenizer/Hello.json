@@ -1,0 +1,38 @@
+[
+  {
+    "type": "function",
+    "value": "L"
+  },
+  {
+    "type": "variable",
+    "value": "a"
+  },
+  {
+    "type": "function",
+    "value": "A"
+  },
+  {
+    "type": "number",
+    "value": 3
+  },
+  {
+    "type": "number",
+    "value": 2
+  },
+  {
+    "type": "newline",
+    "value": "\n"
+  },
+  {
+    "type": "function",
+    "value": "P"
+  },
+  {
+    "type": "variable",
+    "value": "a"
+  },
+  {
+    "type": "newline",
+    "value": "\n"
+  }
+]

@@ -1,0 +1,19 @@
+P 'Input a number:'
+L p R
+
+N isprime
+L a A Q p 1
+L b 2
+I C p 2 J false
+N loop
+I C a b J true
+I E M p b 0 J false
+L b A b 1
+J loop
+
+N false
+P U p ' is not prime'
+H
+
+N true
+P U p ' is prime'

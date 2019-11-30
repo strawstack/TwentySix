@@ -1,0 +1,18 @@
+N loop
+L a A a 1
+I E M a 15 0 J fizzbuzz
+I E M a 5 0 J fizz
+I E M a 3 0 J buzz
+P a
+J end
+N fizzbuzz
+P 'fizzbuzz'
+J end
+N fizz
+P 'fizz'
+J end
+N buzz
+P 'buzz'
+N end
+I E a 101 H
+J loop

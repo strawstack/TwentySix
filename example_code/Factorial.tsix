@@ -1,0 +1,10 @@
+L n V R
+L v n
+L r 1
+N fact
+I E n 1 J done
+L r T r n
+L n A n F 1
+J fact
+N done
+P U 'The factorial of ' U v U ' is ' r

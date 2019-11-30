@@ -1,0 +1,206 @@
+[
+  {
+    "type": "function",
+    "value": "L"
+  },
+  {
+    "type": "variable",
+    "value": "n"
+  },
+  {
+    "type": "function",
+    "value": "V"
+  },
+  {
+    "type": "function",
+    "value": "R"
+  },
+  {
+    "type": "newline",
+    "value": "\n"
+  },
+  {
+    "type": "function",
+    "value": "L"
+  },
+  {
+    "type": "variable",
+    "value": "v"
+  },
+  {
+    "type": "variable",
+    "value": "n"
+  },
+  {
+    "type": "newline",
+    "value": "\n"
+  },
+  {
+    "type": "function",
+    "value": "L"
+  },
+  {
+    "type": "variable",
+    "value": "r"
+  },
+  {
+    "type": "number",
+    "value": 1
+  },
+  {
+    "type": "newline",
+    "value": "\n"
+  },
+  {
+    "type": "function",
+    "value": "N"
+  },
+  {
+    "type": "name",
+    "value": "fact"
+  },
+  {
+    "type": "newline",
+    "value": "\n"
+  },
+  {
+    "type": "function",
+    "value": "I"
+  },
+  {
+    "type": "function",
+    "value": "E"
+  },
+  {
+    "type": "variable",
+    "value": "n"
+  },
+  {
+    "type": "number",
+    "value": 1
+  },
+  {
+    "type": "function",
+    "value": "J"
+  },
+  {
+    "type": "name",
+    "value": "done"
+  },
+  {
+    "type": "newline",
+    "value": "\n"
+  },
+  {
+    "type": "function",
+    "value": "L"
+  },
+  {
+    "type": "variable",
+    "value": "r"
+  },
+  {
+    "type": "function",
+    "value": "T"
+  },
+  {
+    "type": "variable",
+    "value": "r"
+  },
+  {
+    "type": "variable",
+    "value": "n"
+  },
+  {
+    "type": "newline",
+    "value": "\n"
+  },
+  {
+    "type": "function",
+    "value": "L"
+  },
+  {
+    "type": "variable",
+    "value": "n"
+  },
+  {
+    "type": "function",
+    "value": "A"
+  },
+  {
+    "type": "variable",
+    "value": "n"
+  },
+  {
+    "type": "function",
+    "value": "F"
+  },
+  {
+    "type": "number",
+    "value": 1
+  },
+  {
+    "type": "newline",
+    "value": "\n"
+  },
+  {
+    "type": "function",
+    "value": "J"
+  },
+  {
+    "type": "name",
+    "value": "fact"
+  },
+  {
+    "type": "newline",
+    "value": "\n"
+  },
+  {
+    "type": "function",
+    "value": "N"
+  },
+  {
+    "type": "name",
+    "value": "done"
+  },
+  {
+    "type": "newline",
+    "value": "\n"
+  },
+  {
+    "type": "function",
+    "value": "P"
+  },
+  {
+    "type": "function",
+    "value": "U"
+  },
+  {
+    "type": "string",
+    "value": "The factorial of "
+  },
+  {
+    "type": "function",
+    "value": "U"
+  },
+  {
+    "type": "variable",
+    "value": "v"
+  },
+  {
+    "type": "function",
+    "value": "U"
+  },
+  {
+    "type": "string",
+    "value": " is "
+  },
+  {
+    "type": "variable",
+    "value": "r"
+  },
+  {
+    "type": "newline",
+    "value": "\n"
+  }
+]

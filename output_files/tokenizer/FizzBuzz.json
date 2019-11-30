@@ -1,0 +1,314 @@
+[
+  {
+    "type": "function",
+    "value": "N"
+  },
+  {
+    "type": "name",
+    "value": "loop"
+  },
+  {
+    "type": "newline",
+    "value": "\n"
+  },
+  {
+    "type": "function",
+    "value": "L"
+  },
+  {
+    "type": "variable",
+    "value": "a"
+  },
+  {
+    "type": "function",
+    "value": "A"
+  },
+  {
+    "type": "variable",
+    "value": "a"
+  },
+  {
+    "type": "number",
+    "value": 1
+  },
+  {
+    "type": "newline",
+    "value": "\n"
+  },
+  {
+    "type": "function",
+    "value": "I"
+  },
+  {
+    "type": "function",
+    "value": "E"
+  },
+  {
+    "type": "function",
+    "value": "M"
+  },
+  {
+    "type": "variable",
+    "value": "a"
+  },
+  {
+    "type": "number",
+    "value": 15
+  },
+  {
+    "type": "number",
+    "value": 0
+  },
+  {
+    "type": "function",
+    "value": "J"
+  },
+  {
+    "type": "name",
+    "value": "fizzbuzz"
+  },
+  {
+    "type": "newline",
+    "value": "\n"
+  },
+  {
+    "type": "function",
+    "value": "I"
+  },
+  {
+    "type": "function",
+    "value": "E"
+  },
+  {
+    "type": "function",
+    "value": "M"
+  },
+  {
+    "type": "variable",
+    "value": "a"
+  },
+  {
+    "type": "number",
+    "value": 5
+  },
+  {
+    "type": "number",
+    "value": 0
+  },
+  {
+    "type": "function",
+    "value": "J"
+  },
+  {
+    "type": "name",
+    "value": "fizz"
+  },
+  {
+    "type": "newline",
+    "value": "\n"
+  },
+  {
+    "type": "function",
+    "value": "I"
+  },
+  {
+    "type": "function",
+    "value": "E"
+  },
+  {
+    "type": "function",
+    "value": "M"
+  },
+  {
+    "type": "variable",
+    "value": "a"
+  },
+  {
+    "type": "number",
+    "value": 3
+  },
+  {
+    "type": "number",
+    "value": 0
+  },
+  {
+    "type": "function",
+    "value": "J"
+  },
+  {
+    "type": "name",
+    "value": "buzz"
+  },
+  {
+    "type": "newline",
+    "value": "\n"
+  },
+  {
+    "type": "function",
+    "value": "P"
+  },
+  {
+    "type": "variable",
+    "value": "a"
+  },
+  {
+    "type": "newline",
+    "value": "\n"
+  },
+  {
+    "type": "function",
+    "value": "J"
+  },
+  {
+    "type": "name",
+    "value": "end"
+  },
+  {
+    "type": "newline",
+    "value": "\n"
+  },
+  {
+    "type": "function",
+    "value": "N"
+  },
+  {
+    "type": "name",
+    "value": "fizzbuzz"
+  },
+  {
+    "type": "newline",
+    "value": "\n"
+  },
+  {
+    "type": "function",
+    "value": "P"
+  },
+  {
+    "type": "string",
+    "value": "fizzbuzz"
+  },
+  {
+    "type": "newline",
+    "value": "\n"
+  },
+  {
+    "type": "function",
+    "value": "J"
+  },
+  {
+    "type": "name",
+    "value": "end"
+  },
+  {
+    "type": "newline",
+    "value": "\n"
+  },
+  {
+    "type": "function",
+    "value": "N"
+  },
+  {
+    "type": "name",
+    "value": "fizz"
+  },
+  {
+    "type": "newline",
+    "value": "\n"
+  },
+  {
+    "type": "function",
+    "value": "P"
+  },
+  {
+    "type": "string",
+    "value": "fizz"
+  },
+  {
+    "type": "newline",
+    "value": "\n"
+  },
+  {
+    "type": "function",
+    "value": "J"
+  },
+  {
+    "type": "name",
+    "value": "end"
+  },
+  {
+    "type": "newline",
+    "value": "\n"
+  },
+  {
+    "type": "function",
+    "value": "N"
+  },
+  {
+    "type": "name",
+    "value": "buzz"
+  },
+  {
+    "type": "newline",
+    "value": "\n"
+  },
+  {
+    "type": "function",
+    "value": "P"
+  },
+  {
+    "type": "string",
+    "value": "buzz"
+  },
+  {
+    "type": "newline",
+    "value": "\n"
+  },
+  {
+    "type": "function",
+    "value": "N"
+  },
+  {
+    "type": "name",
+    "value": "end"
+  },
+  {
+    "type": "newline",
+    "value": "\n"
+  },
+  {
+    "type": "function",
+    "value": "I"
+  },
+  {
+    "type": "function",
+    "value": "E"
+  },
+  {
+    "type": "variable",
+    "value": "a"
+  },
+  {
+    "type": "number",
+    "value": 101
+  },
+  {
+    "type": "function",
+    "value": "H"
+  },
+  {
+    "type": "newline",
+    "value": "\n"
+  },
+  {
+    "type": "function",
+    "value": "J"
+  },
+  {
+    "type": "name",
+    "value": "loop"
+  },
+  {
+    "type": "newline",
+    "value": "\n"
+  }
+]

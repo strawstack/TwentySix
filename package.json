@@ -1,0 +1,14 @@
+{
+  "name": "twentysix",
+  "version": "1.0.0",
+  "description": "A programing language written by a part-time minimalist",
+  "main": "generator.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}

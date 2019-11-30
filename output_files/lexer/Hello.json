@@ -1,0 +1,39 @@
+{
+  "type": "program",
+  "children": [
+    {
+      "type": "function",
+      "value": "L",
+      "children": [
+        {
+          "type": "variable",
+          "value": "a"
+        },
+        {
+          "type": "function",
+          "value": "A",
+          "children": [
+            {
+              "type": "number",
+              "value": 3
+            },
+            {
+              "type": "number",
+              "value": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "function",
+      "value": "P",
+      "children": [
+        {
+          "type": "variable",
+          "value": "a"
+        }
+      ]
+    }
+  ]
+}

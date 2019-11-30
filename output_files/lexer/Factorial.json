@@ -1,0 +1,208 @@
+{
+  "type": "program",
+  "children": [
+    {
+      "type": "function",
+      "value": "L",
+      "children": [
+        {
+          "type": "variable",
+          "value": "n"
+        },
+        {
+          "type": "function",
+          "value": "V",
+          "children": [
+            {
+              "type": "function",
+              "value": "R",
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "function",
+      "value": "L",
+      "children": [
+        {
+          "type": "variable",
+          "value": "v"
+        },
+        {
+          "type": "variable",
+          "value": "n"
+        }
+      ]
+    },
+    {
+      "type": "function",
+      "value": "L",
+      "children": [
+        {
+          "type": "variable",
+          "value": "r"
+        },
+        {
+          "type": "number",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "type": "function",
+      "value": "N",
+      "children": [
+        {
+          "type": "name",
+          "value": "fact"
+        }
+      ]
+    },
+    {
+      "type": "function",
+      "value": "I",
+      "children": [
+        {
+          "type": "function",
+          "value": "E",
+          "children": [
+            {
+              "type": "variable",
+              "value": "n"
+            },
+            {
+              "type": "number",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "type": "function",
+          "value": "J",
+          "children": [
+            {
+              "type": "name",
+              "value": "done"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "function",
+      "value": "L",
+      "children": [
+        {
+          "type": "variable",
+          "value": "r"
+        },
+        {
+          "type": "function",
+          "value": "T",
+          "children": [
+            {
+              "type": "variable",
+              "value": "r"
+            },
+            {
+              "type": "variable",
+              "value": "n"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "function",
+      "value": "L",
+      "children": [
+        {
+          "type": "variable",
+          "value": "n"
+        },
+        {
+          "type": "function",
+          "value": "A",
+          "children": [
+            {
+              "type": "variable",
+              "value": "n"
+            },
+            {
+              "type": "function",
+              "value": "F",
+              "children": [
+                {
+                  "type": "number",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "function",
+      "value": "J",
+      "children": [
+        {
+          "type": "name",
+          "value": "fact"
+        }
+      ]
+    },
+    {
+      "type": "function",
+      "value": "N",
+      "children": [
+        {
+          "type": "name",
+          "value": "done"
+        }
+      ]
+    },
+    {
+      "type": "function",
+      "value": "P",
+      "children": [
+        {
+          "type": "function",
+          "value": "U",
+          "children": [
+            {
+              "type": "string",
+              "value": "The factorial of "
+            },
+            {
+              "type": "function",
+              "value": "U",
+              "children": [
+                {
+                  "type": "variable",
+                  "value": "v"
+                },
+                {
+                  "type": "function",
+                  "value": "U",
+                  "children": [
+                    {
+                      "type": "string",
+                      "value": " is "
+                    },
+                    {
+                      "type": "variable",
+                      "value": "r"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

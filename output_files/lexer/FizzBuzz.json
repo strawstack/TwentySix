@@ -1,0 +1,304 @@
+{
+  "type": "program",
+  "children": [
+    {
+      "type": "function",
+      "value": "N",
+      "children": [
+        {
+          "type": "name",
+          "value": "loop"
+        }
+      ]
+    },
+    {
+      "type": "function",
+      "value": "L",
+      "children": [
+        {
+          "type": "variable",
+          "value": "a"
+        },
+        {
+          "type": "function",
+          "value": "A",
+          "children": [
+            {
+              "type": "variable",
+              "value": "a"
+            },
+            {
+              "type": "number",
+              "value": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "function",
+      "value": "I",
+      "children": [
+        {
+          "type": "function",
+          "value": "E",
+          "children": [
+            {
+              "type": "function",
+              "value": "M",
+              "children": [
+                {
+                  "type": "variable",
+                  "value": "a"
+                },
+                {
+                  "type": "number",
+                  "value": 15
+                }
+              ]
+            },
+            {
+              "type": "number",
+              "value": 0
+            }
+          ]
+        },
+        {
+          "type": "function",
+          "value": "J",
+          "children": [
+            {
+              "type": "name",
+              "value": "fizzbuzz"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "function",
+      "value": "I",
+      "children": [
+        {
+          "type": "function",
+          "value": "E",
+          "children": [
+            {
+              "type": "function",
+              "value": "M",
+              "children": [
+                {
+                  "type": "variable",
+                  "value": "a"
+                },
+                {
+                  "type": "number",
+                  "value": 5
+                }
+              ]
+            },
+            {
+              "type": "number",
+              "value": 0
+            }
+          ]
+        },
+        {
+          "type": "function",
+          "value": "J",
+          "children": [
+            {
+              "type": "name",
+              "value": "fizz"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "function",
+      "value": "I",
+      "children": [
+        {
+          "type": "function",
+          "value": "E",
+          "children": [
+            {
+              "type": "function",
+              "value": "M",
+              "children": [
+                {
+                  "type": "variable",
+                  "value": "a"
+                },
+                {
+                  "type": "number",
+                  "value": 3
+                }
+              ]
+            },
+            {
+              "type": "number",
+              "value": 0
+            }
+          ]
+        },
+        {
+          "type": "function",
+          "value": "J",
+          "children": [
+            {
+              "type": "name",
+              "value": "buzz"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "function",
+      "value": "P",
+      "children": [
+        {
+          "type": "variable",
+          "value": "a"
+        }
+      ]
+    },
+    {
+      "type": "function",
+      "value": "J",
+      "children": [
+        {
+          "type": "name",
+          "value": "end"
+        }
+      ]
+    },
+    {
+      "type": "function",
+      "value": "N",
+      "children": [
+        {
+          "type": "name",
+          "value": "fizzbuzz"
+        }
+      ]
+    },
+    {
+      "type": "function",
+      "value": "P",
+      "children": [
+        {
+          "type": "string",
+          "value": "fizzbuzz"
+        }
+      ]
+    },
+    {
+      "type": "function",
+      "value": "J",
+      "children": [
+        {
+          "type": "name",
+          "value": "end"
+        }
+      ]
+    },
+    {
+      "type": "function",
+      "value": "N",
+      "children": [
+        {
+          "type": "name",
+          "value": "fizz"
+        }
+      ]
+    },
+    {
+      "type": "function",
+      "value": "P",
+      "children": [
+        {
+          "type": "string",
+          "value": "fizz"
+        }
+      ]
+    },
+    {
+      "type": "function",
+      "value": "J",
+      "children": [
+        {
+          "type": "name",
+          "value": "end"
+        }
+      ]
+    },
+    {
+      "type": "function",
+      "value": "N",
+      "children": [
+        {
+          "type": "name",
+          "value": "buzz"
+        }
+      ]
+    },
+    {
+      "type": "function",
+      "value": "P",
+      "children": [
+        {
+          "type": "string",
+          "value": "buzz"
+        }
+      ]
+    },
+    {
+      "type": "function",
+      "value": "N",
+      "children": [
+        {
+          "type": "name",
+          "value": "end"
+        }
+      ]
+    },
+    {
+      "type": "function",
+      "value": "I",
+      "children": [
+        {
+          "type": "function",
+          "value": "E",
+          "children": [
+            {
+              "type": "variable",
+              "value": "a"
+            },
+            {
+              "type": "number",
+              "value": 101
+            }
+          ]
+        },
+        {
+          "type": "function",
+          "value": "H",
+          "children": []
+        }
+      ]
+    },
+    {
+      "type": "function",
+      "value": "J",
+      "children": [
+        {
+          "type": "name",
+          "value": "loop"
+        }
+      ]
+    }
+  ]
+}
