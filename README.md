@@ -2,7 +2,7 @@
 
 A simple programming language written by a part-time minimalist
 
-![](./images/tsix_logo.png)
+![](./images/tsix_logo2.png)
 
 # Writing Code in TwentySix
 
