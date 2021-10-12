@@ -75,8 +75,13 @@ sQrt: Find the sqrt of `exp`.
 ## R
 Read: Read value from std input as string.
 
-## S [x/y] [index] [value]
-Set: Assign `value` to `index` of given list. If index would otherwise be out of bounds, list is padded with zeros.
+## S
+
+  ### S [exp1] [exp2]
+  Subtract: Subtract exp2 from exp1
+
+  ### S [var] [index] [value]
+  Set: Assign `value` to `index` of given list. If index would otherwise be out of bounds, list is padded with zeros.
 
 ## T [exp1] [exp2]
 Times: Result of exp1 multiplied by exp2.
