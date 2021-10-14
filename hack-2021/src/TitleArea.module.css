@@ -1,0 +1,23 @@
+.TitleArea {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.TitleBlock {
+
+}
+.Title {
+    
+}
+.StepBlock {
+    
+}
+.Step {
+
+}
+.Step>.Number {
+
+}
+.Step>.Name {
+    
+}

@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+.App {
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    position: relative;
+
+    font-family: 'Varela Round', sans-serif;
+    font-size: 1.2rem;
+    color: #333;
+
+    display: grid;
+    grid-template-rows: 100px 50px 1fr 100px;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+.App>h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ResetBtn {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+.ResetBtn:hover {
+    cursor: pointer;
+    color: salmon;
+    font-weight: bold;
+}

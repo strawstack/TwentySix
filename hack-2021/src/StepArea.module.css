@@ -1,0 +1,28 @@
+.StepArea {
+    position: relative;
+    grid-column: 2 / 4;
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.Step {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Step:hover {
+    cursor: pointer;
+    font-weight: bold;
+    color: salmon;
+}
+.Marker {
+    position: absolute;
+    background: lightsalmon;
+    top: 100px;
+    left: 100px;
+    border-radius: 12px;
+    opacity: 0.5;
+    transition: top 0.2s, left 0.2s;
+    pointer-events: none;
+}
