@@ -7,6 +7,7 @@ import AceArea from './AceArea.js';
 
 import tokenizer from './twentysix_compiler/1_tokenizer.js';
 import lexer from './twentysix_compiler/2_lexer.js';
+import parser from './twentysix_compiler/3_parser.js';
 
 function App() {
 
@@ -27,7 +28,9 @@ function App() {
         newline: '\n'
     }, null, 4);
 
-    const [step, setStep] = React.useState(1);
+    const defaultParserRules = `{"TOOD": ""}`;
+
+    const [step, setStep] = React.useState(3);
     const [tokenizerInput, setTokenizerInput] = React.useState(defaultTokenizerInput);
     const [tokenizerRules, setTokenizerRules] = React.useState(defaultTokenizerRules);
     const [tokenizerOutput, setTokenizerOutput] = React.useState("");
@@ -37,7 +40,7 @@ function App() {
     const [lexerOutput, setLexerOutput] = React.useState("");
 
     const [parserInput, setParserInput] = React.useState("");
-    const [parserRules, setParserRules] = React.useState("");
+    const [parserRules, setParserRules] = React.useState(defaultParserRules);
     const [parserOutput, setParserOutput] = React.useState("");
 
     const [generatorInput, setGeneratorInput] = React.useState("");
@@ -46,7 +49,11 @@ function App() {
 
     const [errorTokenizer, setErrorTokenizer] = React.useState(null);
     const [errorLexer, setErrorLexer] = React.useState(null);
+    const [errorParser, setErrorParser] = React.useState(null);
 
+    /*
+    * Tokenizer
+    */
     React.useEffect(() => {
         setErrorTokenizer(null);
         let tokenizerRulesObject;
@@ -66,6 +73,9 @@ function App() {
         }
     }, [tokenizerInput, tokenizerRules]);
 
+    /*
+    * Lexer
+    */
     React.useEffect(() => {
         setLexerInput(tokenizerOutput);
     }, [tokenizerOutput]);
@@ -91,6 +101,37 @@ function App() {
         }
     }, [lexerInput, lexerRules]);
 
+    /*
+    * Parser
+    */
+    React.useEffect(() => {
+        setParserInput(lexerOutput);
+    }, [lexerOutput]);
+
+    React.useEffect(() => {
+        setErrorParser(null);
+        let parserInputObject;
+        let parserRulesObject;
+        try {
+            parserInputObject = JSON.parse(parserInput);
+            parserRulesObject = JSON.parse(parserRules);
+        } catch(e) {
+            setErrorParser(e.message);
+            return;
+        }
+        if (parserInputObject && parserRulesObject) {
+            setParserOutput(
+                JSON.stringify(
+                    parser(parserInputObject, parserRulesObject),
+                    null, 4
+                )
+            );
+        }
+    }, [parserInput, parserRules]);
+
+    /*
+    * Render correct step
+    */
     if (step === 1) {
         const aceAreaLabels = ["Program Input", "Tokenizer Rules", "Tokenizer Output"];
         return (
@@ -137,6 +178,7 @@ function App() {
                 <AceArea value={parserInput} setValue={setParserInput} uid={`AceID-${6}`} />
                 <AceArea value={parserRules} setValue={setParserRules} uid={`AceID-${7}`} />
                 <AceArea value={parserOutput} setValue={setParserOutput} uid={`AceID-${8}`} readOnly={true} />
+                <div className={styles.ErrorMessage}>{errorParser ? `Error: ${errorParser}`: ""}</div>
                 <div className={styles.ResetBtn}>Reset</div>
             </div>
         );

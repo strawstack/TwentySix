@@ -10,8 +10,6 @@ const defaultRules = {
 function lexer(tokenList, rules = defaultRules) {
     let lexList = tokenList.slice();
 
-    console.log(lexList);
-
     let lineNumber = 1;
     for (let index in tokenList) {
 
@@ -32,14 +30,14 @@ function lexer(tokenList, rules = defaultRules) {
                 return {
                     type: name,
                     line: lineNumber,
-                    token: token
+                    value: token
                 }
             }
         }
         return {
-            type: null,
+            type: 'unknown',
             line: lineNumber,
-            token: token
+            value: token
         }
     }
 

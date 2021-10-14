@@ -1,35 +1,28 @@
 // parser: takes stream of tokens as input and outputs an abstract syntax tree
 
-const defaultSymbolInfo = {
-    symbol: null,
-    number: null,
-    string: null,
-    new_line: null
+const defaultParseRules = {
+    symbol: (value, attr) => {
+
+    },
+    number: (value, attr) => {
+        
+    },
+    string: (value, attr) => {
+        
+    },
+    new_line: (value, attr) => {
+        
+    }
 };
 
-function parser(lexList, symbolInfo = defaultSymbolInfo) {
+function parser(lexList, parseRules = defaultParseRules) {
     let parseObject = makeParseObject(lexList);
 
     function buildTree(parseObject) {
-        let root = {
-            type: "multiline",
-            left: null,
-            right: null
+        return {
+            type: 'TODO',
+            value: 0
         };
-    
-        root.left = buildBranch(parseObject);
-        if (parseObject.peekToken(2)) {
-            parseObject.nextToken(); // Skip over new_line
-            root.right = buildTree(parseObject);
-        }
-        return root;
-    }
-    
-    function buildBranch(parseObject) {
-        let token = parseObject.nextToken();
-        
-        
-        return "bagel";
     }
     
     function makeParseObject(lexList) {
@@ -57,7 +50,10 @@ function parser(lexList, symbolInfo = defaultSymbolInfo) {
         }
     }
 
-    return buildTree(parseObject); 
+    return {
+        type: 'program',
+        body: buildTree(parseObject)
+    }; 
 }
 
 export default parser;
