@@ -30,7 +30,7 @@ function App() {
 
     const defaultParserRules = `{"TOOD": ""}`;
 
-    const [step, setStep] = React.useState(3);
+    const [step, setStep] = React.useState(1);
     const [tokenizerInput, setTokenizerInput] = React.useState(defaultTokenizerInput);
     const [tokenizerRules, setTokenizerRules] = React.useState(defaultTokenizerRules);
     const [tokenizerOutput, setTokenizerOutput] = React.useState("");
