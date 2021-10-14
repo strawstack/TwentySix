@@ -22,7 +22,7 @@ function App() {
 
     const defaultLexerRules = JSON.stringify({
         symbol: '^([a-z]{1,3}|[A-Z])$',
-        number: '^[0-9]+(\.[0-9]+)?$', 
+        number: '^[0-9]+(\.[0-9]+)?$', /* eslint-disable-line */
         string: '^"[^"]+"$',
         newline: '\n'
     }, null, 4);
