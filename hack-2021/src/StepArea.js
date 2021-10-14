@@ -12,14 +12,18 @@ function StepArea({step, setStep}) {
     });
 
     React.useEffect(() => {
-        const stepHeight = stepSize.current.offsetHeight;
-        const stepWidth = stepSize.current.offsetWidth;
-        const top = stepHeight/2 - height/2;
-        const left = stepWidth/2 + (step - 1) * stepWidth - width/2;
-        setPosition({
-            top: top,
-            left: left
-        });
+        function handleResize() {
+            const stepHeight = stepSize.current.offsetHeight;
+            const stepWidth = stepSize.current.offsetWidth;
+            const top = stepHeight/2 - height/2;
+            const left = stepWidth/2 + (step - 1) * stepWidth - width/2;
+            setPosition({
+                top: top,
+                left: left
+            });
+        }
+        handleResize();
+        window.addEventListener('resize', handleResize);
     }, [step]);
 
     return (

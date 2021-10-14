@@ -4,11 +4,13 @@ const defaultRules = {
     symbol: /^([a-z]{1,3}|[A-Z])$/, // 1 to 3 lower case letters or a single upper case letter
     number: /^[0-9]+(\.[0-9]+)?$/, // digits, decimal point, more digits
     string: /^"[^"]+"$/,
-    new_line: /\n/
+    newline: /\n/
 };
 
 function lexer(tokenList, rules = defaultRules) {
     let lexList = tokenList.slice();
+
+    console.log(lexList);
 
     let lineNumber = 1;
     for (let index in tokenList) {
@@ -17,7 +19,7 @@ function lexer(tokenList, rules = defaultRules) {
         lexList[index] = matchRules(tokenList[index]);
         
         // Advance line number if token is newline
-        if (tokenList[index].match((rules["new_line"]))) {
+        if (tokenList[index].match((rules["newline"]))) {
             lineNumber += 1;
         }
     }

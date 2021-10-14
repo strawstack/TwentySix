@@ -11,15 +11,21 @@
     color: #333;
 
     display: grid;
-    grid-template-rows: 100px 50px 1fr 100px;
+    grid-template-rows: 100px 50px 2fr 100px 1fr;
     grid-template-columns: 1fr 1fr 1fr;
-
 }
 
 .App>h2 {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.ErrorMessage {
+    grid-column: 1 / 4;
+    color: red;
+    font-weight: bold;
+    margin: 10px;
 }
 
 .ResetBtn {
